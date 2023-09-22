@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    position: relative;
+    background-image: url('../static/images/tracker-app-blog-ft.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+.para {
+    position: absolute;
+    top: 30%;
+    left: 69%;
+    font-size: 24px;
+    color: whitesmoke;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.bo {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 24px;
+    color: whitesmoke;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.ba {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    font-size: 24px;
+    color: whitesmoke;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.pen {
+    position: absolute;
+    top: 70%;
+    font-size: 24px;
+    color: whitesmoke;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.pen1 {
+    position: absolute;
+    top: 80%;
+    font-size: 24px;
+    color: whitesmoke;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.txt {
+    position: absolute;
+    top: 40%;
+    left: 72%;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.sub {
+    position: absolute;
+    top: 49%;
+    left: 78%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
